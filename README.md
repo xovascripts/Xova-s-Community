@@ -32,4 +32,4 @@ getgenv().Settings = {
 }
 local url = "https://raw.githubusercontent.com/xovascripts/Xova-s-Community/main/Loader.lua";
 loadstring(game:HttpGet(url))()
-```lua
+```
