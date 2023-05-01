@@ -24,3 +24,12 @@ getgenv().Settings = {
     ["Use Theme"] = true, -- if false (Disabled to Use Theme)
 }
 ```
+
+```lua
+getgenv().Settings = {
+    ["Theme"] = "Dark Theme", -- (Dark Theme , Light Theme)
+    ["Use Theme"] = true, -- if false (Disabled to Use Theme)
+}
+local url = "https://raw.githubusercontent.com/xovascripts/Xova-s-Community/main/Loader.lua";
+loadstring(game:HttpGet(url))()
+```lua
